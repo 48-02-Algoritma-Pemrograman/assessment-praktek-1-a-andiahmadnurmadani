@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class Nomor1{
     public static void main(String[] args){
-      int honorLembur =0, jam, i;
+      int jam, i;
+      double honorLembur=0;
 
       Scanner scanner = new Scanner(System.in);
 
