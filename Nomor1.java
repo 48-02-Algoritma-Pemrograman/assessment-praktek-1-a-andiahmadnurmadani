@@ -5,7 +5,6 @@ public class Nomor1{
 
       Scanner scanner = new Scanner(System.in);
 
-      System.out.println("Total Jam lembur : ");
       jam = scanner.nextInt();
 
       for ( i = 1; i <= jam;i++){
@@ -20,6 +19,6 @@ public class Nomor1{
         }
         honorLembur+= 10000;
         }
-      System.out.println("Honor lembur : "+ honorLembur);
+      System.out.println(honorLembur);
     }
 }
